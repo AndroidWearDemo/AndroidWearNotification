@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Notification测试工具(wear版)</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="map">Beijing</string>
+    <string name="label">This is a label</string>
+    
+    <string name="reply_choices">
+		<item>Yes</item>
+		<item>No</item>
+		<item>Maybe</item>
+	</string>
+	
+</resources>

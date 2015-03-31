@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="一般的Wear通知(铃)" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Action按钮响应事件的Wear通知" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义的Wear通知(震动)" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="BigText内容的Wear通知" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="多页的Wear通知" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="语音输入的Wear通知" />
+
+<!--     <Button
+        android:id="@+id/btn7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="待定" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="待定2" /> -->
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light"
+        android:text="清零所有测试数据" />
+
+</LinearLayout>
